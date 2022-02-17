@@ -1,0 +1,21 @@
+Input (stdin)
+
+Download
+1990
+Your Output (stdout)
+False
+Expected Output
+
+Download
+False
+
+def is_leap(year):
+     if year % 400 == 0:
+        return True
+     if year % 100 == 0:
+        return False
+     if year % 4 == 0:
+        return True
+     return False
+
+year = int(input())
